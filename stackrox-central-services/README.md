@@ -149,9 +149,9 @@ can be configured via those files:
         MII...
         -----END CERTIFICATE-----
       key: |
-        -----BEGIN EC PRIVATE KEY-----
+        -----BEGIN EC EXAMPLE PRIVATE KEY-----
         MHc...
-        -----END EC PRIVATE KEY-----
+        -----END EC EXAMPLE PRIVATE KEY-----
   ```
 
 After you have created these YAML files, you can inject the configuration options into the

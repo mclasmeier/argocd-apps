@@ -53,7 +53,7 @@ defaults:
 
     image:
       name: main
-      tag: 4.4.x-92-ge647dde581
+      tag: 4.4.x-126-g8f9859c167
 
     resources:
       requests:
@@ -85,7 +85,7 @@ defaults:
 
       image:
         name: central-db
-        tag: 4.4.x-92-ge647dde581
+        tag: 4.4.x-126-g8f9859c167
 
       resources:
         requests:
@@ -166,7 +166,7 @@ defaults:
     disable: true
     image:
       name: scanner-v4
-      tag: 4.4.x-92-ge647dde581
+      tag: 4.4.x-126-g8f9859c167
     indexer:
       disable: false
       logLevel: INFO
@@ -310,7 +310,7 @@ defaults:
           memory: "4Gi"
       image:
         name: scanner-v4-db
-        tag: 4.4.x-92-ge647dde581
+        tag: 4.4.x-126-g8f9859c167
     exposeMonitoring: false
 
   system:

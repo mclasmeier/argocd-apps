@@ -3,5 +3,5 @@ name: stackrox-central-services
 icon: https://raw.githubusercontent.com/stackrox/stackrox/master/image/templates/helm/shared/assets/Red_Hat-Hat_icon.png
 description: Helm Chart for StackRox Central Service
 type: application
-version: 400.4.0-92-ge647dde581
-appVersion: 4.4.x-92-ge647dde581
+version: 400.4.0-126-g8f9859c167
+appVersion: 4.4.x-126-g8f9859c167

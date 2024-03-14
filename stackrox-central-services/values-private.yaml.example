@@ -66,9 +66,9 @@
 #     <PEM-encoded CA certificate>
 #     -----END CERTIFICATE-----
 #   key: |
-#     -----BEGIN RSA PRIVATE KEY-----
+#     -----BEGIN RSA EXAMPLE PRIVATE KEY-----
 #     <PEM-encoded CA private key>
-#     -----END RSA PRIVATE KEY-----
+#     -----END RSA EXAMPLE PRIVATE KEY-----
 #
 # # Secret configuration options for the StackRox Central deployment.
 # central:
@@ -77,9 +77,9 @@
 #   # (upgrade).
 #   jwtSigner:
 #     key: |
-#       -----BEGIN RSA PRIVATE KEY-----
+#       -----BEGIN RSA EXAMPLE PRIVATE KEY-----
 #       <PEM-encoded JWT signer private key>
-#       -----END RSA PRIVATE KEY-----
+#       -----END RSA EXAMPLE PRIVATE KEY-----
 #   # Internal "central.stackrox" service TLS certificate for the Central deployment.
 #   # Omit to auto-generate (initial deployment) or use existing (upgrade).
 #   serviceTLS:
@@ -88,9 +88,9 @@
 #       <PEM-encoded Central service certificate>
 #       -----END CERTIFICATE-----
 #     key: |
-#       -----BEGIN RSA PRIVATE KEY-----
+#       -----BEGIN RSA EXAMPLE PRIVATE KEY-----
 #       <PEM-encoded Central service cert private key>
-#       -----END RSA PRIVATE KEY-----
+#       -----END RSA EXAMPLE PRIVATE KEY-----
 #
 #   # Default (user-facing) TLS certificate.
 #   # NOTE: In contrast to almost all other configuration options, this IS expected
@@ -103,9 +103,9 @@
 #       <PEM-encoded default TLS certificate>
 #       -----END CERTIFICATE-----
 #     key: |
-#       -----BEGIN RSA PRIVATE KEY-----
+#       -----BEGIN RSA EXAMPLE PRIVATE KEY-----
 #       <PEM-encoded default TLS cert private key>
-#       -----END RSA PRIVATE KEY-----
+#       -----END RSA EXAMPLE PRIVATE KEY-----
 #
 #   # Administrator password for logging in to the StackRox portal.
 #   # You can either specify a plaintext password here, or an htpasswd file with a
@@ -140,9 +140,9 @@
 #         <PEM-encoded Central DB certificate>
 #         -----END CERTIFICATE-----
 #       key: |
-#         -----BEGIN RSA PRIVATE KEY-----
+#         -----BEGIN RSA EXAMPLE PRIVATE KEY-----
 #         <PEM-encoded Central DB cert private key>
-#         -----END RSA PRIVATE KEY-----
+#         -----END RSA EXAMPLE PRIVATE KEY-----
 #
 # # Secret configuration options for the StackRox Central deployment.
 # scanner:
@@ -161,9 +161,9 @@
 #       <PEM-encoded Scanner service certificate>
 #       -----END CERTIFICATE-----
 #     key: |
-#       -----BEGIN RSA PRIVATE KEY-----
+#       -----BEGIN RSA EXAMPLE PRIVATE KEY-----
 #       <PEM-encoded Scanner service cert private key>
-#       -----END RSA PRIVATE KEY-----
+#       -----END RSA EXAMPLE PRIVATE KEY-----
 #
 #   # Internal "scanner-db.stackrox" service TLS certificate for the Scanner DB deployment.
 #   # Omit to auto-generate (initial deployment) or use existing (upgrade).
@@ -173,6 +173,6 @@
 #       <PEM-encoded Scanner DB service certificate>
 #       -----END CERTIFICATE-----
 #     key: |
-#       -----BEGIN RSA PRIVATE KEY-----
+#       -----BEGIN RSA EXAMPLE PRIVATE KEY-----
 #       <PEM-encoded Scanner DB service cert private key>
-#       -----END RSA PRIVATE KEY-----
+#       -----END RSA EXAMPLE PRIVATE KEY-----

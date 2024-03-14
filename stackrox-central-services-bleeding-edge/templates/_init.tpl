@@ -50,6 +50,8 @@
 
 {{ $_ = set $._rox "_configShape" $configShape }}
 
+{{ $_ = include "srox.loadAnnotationTemplates" $ }}
+
 {{/*
     General validation.
    */}}
