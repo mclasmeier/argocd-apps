@@ -1,0 +1,44 @@
+image:
+  registry: quay.io/stackrox-io
+
+central:
+  resources:
+    requests:
+      cpu: 400m
+      memory: 1Gi
+    limits:
+      cpu: 400m
+      memory: 1Gi
+  persistence:
+    none: true
+  db:
+    resources:
+      requests:
+        cpu: 400m
+        memory: 1Gi
+      limits:
+        cpu: 400m
+        memory: 1Gi
+
+  telemetry:
+    enabled: false
+
+scannerV4:
+  disable: false
+
+imagePullSecrets:
+  allowNone: true
+
+allowNonstandardNamespace: true
+
+system:
+  enablePodSecurityPolicies: false
+
+customize:
+  other:
+    persistentvolumeclaim/central-db:
+      annotations:
+        helm.sh/hook: null
+        helm.sh/hook-delete-policy: null
+        helm.sh/resource-policy: null
+
