@@ -34,7 +34,7 @@ allowNonstandardNamespace: true
 system:
   enablePodSecurityPolicies: false
 
-customize:
+_customize:
   other:
     persistentvolumeclaim/central-db:
       annotations:
